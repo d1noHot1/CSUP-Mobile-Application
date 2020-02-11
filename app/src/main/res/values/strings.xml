@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Rezervacija Termina</string>
+    <string name="username">Korisnicko ime</string>
+    <string name="password">Lozinka</string>
+    <string name="email">E-mail</string>
+    <string name="zaLogin"><u>Vec imate nalog? Prijavite se.</u></string>
+    <string name="RegistrujSe">Registruj se</string>
+    <string name="LoginujSe">Prijavi se</string>
+    <string name="Log"><u>Nemate nalog? Registrujte se</u></string>
+    <string name="aboutUs">O nama</string>
+    <string name="oNama">
+        <u>Balon sala Sportex</u> od 2015. godine nudi usluge za korisnike. Kao jedan od nacina
+        zakazivanja termina jeste i preko online aplikacije TerminiRezervacija koja je u upotrebi od 2020. god.
+        U ponudi su termini od 14h do 22h. Pored rekreacionih treninga
+        nudimo i skolu fudbala za sve uzraste.
+    </string>
+    <string name="Lokacija">Lokacija</string>
+    <string name="mjesto"> Nalazimo se na lokaciji "Blok 5" u blizini Osnovne skole "Stampar Makarije".
+    Dobrodosli!</string>
+    <string name="klikZaGaleriju"><u>Klikni na sliku za galeriju.</u></string>
+    <string name="Cijene">Cijene</string>
+    <string name="cijeneDesc">Cijena termina 14h-17h iznosi 20 eura, nakon 17h cijena je 25 eura. Vikendom
+    je cijena 20 eura tokom cijelog dana. Placanje je iskljucivo prije odigranog termina.</string>
+    <string name="Kontakt">Kontakt</string>
+    <string name="kontaktDescTel">Broj telefona: 069-716-986</string>
+    <string name="kontaktDescEmail">E-mail: dino.hot@udg.edu.me</string>
+    <string name="loggedIn">Uspjesno ste ulogovani.</string>
+    <string name="povratakuci">Povratak na pocetnu stranu.</string>
+    <string name="odjava">Odjavite se.</string>
+    <string name="slobodniTermini">Slobodni Termini</string>
+    <string name="terminu14">Termin u 14h.</string>
+    <string name="terminu15">Termin u 15h.</string>
+    <string name="terminu16">Termin u 16h.</string>
+    <string name="terminu17">Termin u 17h.</string>
+    <string name="terminu18">Termin u 18h.</string>
+    <string name="terminu19">Termin u 19h.</string>
+    <string name="terminu20">Termin u 20h.</string>
+    <string name="terminu21">Termin u 21h.</string>
+    <string name="terminu22">Termin u 22h.</string>
+    <string name="infoorez">Vrijeme se kuca u formatu 00-24, i to kucanjem samo broja. (pr. "15")</string>
+    <string name="vaseRezervacije">Vase rezervacije:</string>
+    <string name="vrij">Vrijeme termina</string>
+    <string name="Opis">Opis termina</string>
+    <string name="DodajRez">Dodaj rezervaciju.</string>
+    <string name="ki">Korisnicko ime</string>
+    <string name="izbrisi">Izbrisi sve termine.</string>
+
+</resources>
+

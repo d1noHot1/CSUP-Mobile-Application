@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.rezervacijafudbalskihtermina.Galerija"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/back_strelica"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_arrow_back_black_24dp"
+        android:clickable="true"
+        />
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:id="@+id/iv_background"
+        android:scaleType="centerInside"
+        android:src="@drawable/anim_slideshow"
+        android:layout_height="match_parent"
+
+        />
+</LinearLayout>

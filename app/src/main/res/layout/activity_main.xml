@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.rezervacijafudbalskihtermina.MainActivity"
+    >
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@android:color/holo_orange_dark"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/pocetnaStranicaDugme"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="105dp"
+            android:layout_height="match_parent"
+            android:fontFamily="sans-serif-black"
+            android:text="Pocetna stranica"
+            android:textSize="11dp"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/rezervacijaT"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="105dp"
+            android:layout_height="match_parent"
+            android:fontFamily="sans-serif-black"
+            android:textSize="11dp"
+
+            android:text="Rezervacija termina"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/loginT"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="105dp"
+            android:layout_height="match_parent"
+            android:textSize="11dp"
+            android:text="prijava"
+            android:textColor="@android:color/white"
+            android:fontFamily="sans-serif-black"/>
+
+        <Button
+            android:id="@+id/mojeRezervacijeT"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="105dp"
+            android:layout_height="match_parent"
+            android:text="Moje rezervacije"
+            android:textSize="11dp"
+            android:textColor="@android:color/white"
+            android:fontFamily="sans-serif-black"/>
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/aboutUs"
+                android:layout_marginTop="40dp"
+                android:textAlignment="center"
+                android:textSize="25dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/oNama"
+                android:layout_marginTop="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Lokacija"
+                android:layout_marginTop="40dp"
+                android:textAlignment="center"
+                android:textSize="25dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/mjesto"
+                android:layout_marginTop="10dp"
+                />
+            <ImageView
+                android:id="@+id/slika"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/balon"
+                android:clickable="true"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/klikZaGaleriju"
+                android:textAlignment="center"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Cijene"
+                android:layout_marginTop="20dp"
+                android:textAlignment="center"
+                android:textSize="25dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/cijeneDesc"
+                android:layout_marginTop="10dp"
+                android:textAlignment="center"
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Kontakt"
+                android:layout_marginTop="20dp"
+                android:textAlignment="center"
+                android:textSize="25dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/kontaktDescTel"
+                android:layout_marginTop="10dp"
+                android:textAlignment="center"
+
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/kontaktDescEmail"
+                android:layout_marginTop="10dp"
+                android:textAlignment="center"
+                android:layout_marginBottom="40dp"
+
+                />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
