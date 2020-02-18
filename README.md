@@ -1,6 +1,5 @@
 # CSUP-Mobile-Application
 
-Put here one line about your project.
 
 ### Project Overview
 
