@@ -1,5 +1,8 @@
 # CSUP-Mobile-Application
 
+Make your reservations easy
+
+
 ### Project Overview
 
 
