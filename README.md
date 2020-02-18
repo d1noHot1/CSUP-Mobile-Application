@@ -12,6 +12,6 @@ Application for football playing fields reservations is an app that is developed
 ### Logical View
 
 
-https://github.com/d1noHot1/CSUP-Mobile-Application/blob/bransa/LogicView.jpg
+<img src="https://ibb.co/3fBc0TR">
 ### Technology Stack
 For this project, I used Android studio with Java, and SQLite database.
